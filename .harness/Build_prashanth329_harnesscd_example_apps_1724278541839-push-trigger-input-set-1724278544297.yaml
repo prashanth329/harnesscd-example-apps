@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_prashanth329_harnesscd_example_apps_1724278541839-push-trigger-input-set
+  identifier: Build_prashanth329_harnesscd_example_apps_1724278541839pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_Sample
+  pipeline:
+    identifier: Build_prashanth329_harnesscd_example_apps_1724278541839
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
